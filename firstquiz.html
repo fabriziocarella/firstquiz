@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>QUIZ - Copa Mundial de Fútbol</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1>Copa Mundial de Fútbol</h1>
+    <p>
+      A continuación tendrás que responder 4 preguntas acerca de la Copa
+      Mundial de Fútbol
+    </p>
+  </header>
+  <main>
+    <form action="#" name="mundial" id="form">
+      <!-- 1. Pregunta -->
+      <section class="question">
+        <legend>
+          ¿Qué país ha ganado más veces la Copa Mundial de Fútbol?
+        </legend>
+        <article class="questionBox">
+          <input type="radio" id="italy" name="winners" value="italy" />
+          <label for="italy">Italia</label>
+
+          <input type="radio" id="france" name="winners" value="france" />
+          <label for="france">Francia</label>
+
+          <input type="radio" id="brazil" name="winners" value="brazil" />
+          <label for="brazil">Brasil</label>
+
+          <input type="radio" id="germany" name="winners" value="germany" />
+          <label for="germany">Alemania</label>
+        </article>
+      </section>
+      <!-- 2. Pregunta -->
+      <section class="question">
+        <legend>
+          ¿Qué jugador ha marcado más goles en la historia de la Copa Mundial
+          de Fútbol?
+        </legend>
+        <article class="questionBox">
+          <input type="radio" id="pele" name="scorer" value="pele" />
+          <label for="pele">Pelé</label>
+
+          <input type="radio" id="klose" name="scorer" value="klose" />
+          <label for="klose">Miroslav Klose</label>
+
+          <input type="radio" id="ronaldo" name="scorer" value="ronaldo" />
+          <label for="ronaldo">Ronaldo</label>
+
+          <input type="radio" id="maradona" name="scorer" value="maradona" />
+          <label for="maradona">Diego Maradona</label>
+        </article>
+      </section>
+      <!-- 3. Pregunta -->
+      <section class="question">
+        <legend>
+          ¿En qué año se celebró la primera Copa Mundial de Fútbol?
+        </legend>
+        <article class="questionBox">
+          <input type="radio" id="1934" name="first" value="1934" />
+          <label for="1934">1934</label>
+
+          <input type="radio" id="1950" name="first" value="1950" />
+          <label for="1950">1950</label>
+
+          <input type="radio" id="1938" name="first" value="1938" />
+          <label for="1938">1938</label>
+
+          <input type="radio" id="1930" name="first" value="1930" />
+          <label for="1930">1930</label>
+        </article>
+      </section>
+      <!-- 4. Pregunta -->
+      <section class="question">
+        <legend>¿Cuál será el país anfitrión del próximo Mundial?</legend>
+        <article class="questionBox">
+          <input type="radio" id="mexico" name="host" value="mexico" />
+          <label for="mexico">México</label>
+
+          <input type="radio" id="qatar" name="host" value="qatar" />
+          <label for="qatar">Qatar</label>
+
+          <input type="radio" id="usa" name="host" value="usa" />
+          <label for="usa">USA</label>
+
+          <input type="radio" id="canada" name="host" value="canada" />
+          <label for="canada">Canadá</label>
+        </article>
+        <br><br><br>
+        <button type="submit">Comprobar datos</button>
+      </section>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
